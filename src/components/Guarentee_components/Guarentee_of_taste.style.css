@@ -1,0 +1,77 @@
+.guarantee_of_taste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 60px;
+}
+
+.guarantee_of_taste .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.guarantee_of_taste .title h1 {
+    width: 526px;
+    height: 45px;
+    gap: 0;
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.guarantee_of_taste .title p {
+    width: 663px;
+    height: 81px;
+    top: 358px;
+    left: 389px;
+    gap: 0;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #292929;
+}
+
+.guarantee_of_taste .cards {
+    padding: 20px 30px 90px;
+}
+
+.guarantee_of_taste .cards .each_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.guarantee_of_taste .cards .each_card p {
+    width: 270px;
+    height: 30px;
+    top: 745px;
+    left: 285px;
+    gap: 0;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,374 @@
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 25px;
+    padding: 40px 130px;
+    background-color: #F7F7F7;
+}
+
+.delivery .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.delivery .title h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.delivery .title p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.delivery .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 25px;
+}
+
+.delivery .inputs .name_and_phone_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.delivery .inputs .name_and_phone_number .each_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.delivery .inputs .name_and_phone_number .each_input label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .name_and_phone_number .each_input input {
+    width: 328px;
+    height: auto;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 14px 17px;
+    background-color: #fff;
+}
+
+.delivery .inputs .delivery_methods {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.delivery .inputs .delivery_methods label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons .text p {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons .text .price {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #E7426A;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons button {
+    width: 328px;
+    height: 70px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons button:hover {
+    border: 1px solid #E7426A;
+}
+
+.delivery .inputs .delivery_methods .methods_buttons button:hover:focus {
+    border: 1px solid #E7426A;
+}
+
+.delivery .inputs .delivery_address {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.delivery .inputs .delivery_address label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .delivery_address textarea {
+    width: 670px;
+    height: auto;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 14px 12px;
+}
+
+.delivery .inputs .data_and_time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.delivery .inputs .data_and_time .each_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.delivery .inputs .data_and_time .each_input label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .data_and_time .each_input input {
+    width: 328px;
+    height: auto;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 15px 17px;
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .comments_on_order {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.delivery .inputs .comments_on_order label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .comments_on_order textarea {
+    width: 670px;
+    height: auto;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 14px 12px;
+}
+
+.delivery .inputs .payment_methods {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.delivery .inputs .payment_methods label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .payment_methods .all_methods {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.delivery .inputs .payment_methods .all_methods .each_method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.delivery .inputs .payment_methods .all_methods .each_method button {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #2929291A;
+    background-color: #fff;
+
+}
+
+.delivery .inputs .payment_methods .all_methods .each_method button:hover {
+    background-color: #E7426A;
+}
+
+.delivery .inputs .payment_methods .all_methods .each_method button:hover:focus {
+    background-color: #E7426A;
+}
+
+.delivery .inputs .total_amount {
+    width: 670px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #4a4a4b;
+    border-bottom: 1px solid #4a4a4b;
+    padding: 15px 0;
+}
+
+.delivery .inputs .total_amount p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .total_amount .price {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: right;
+    color: #E7426A;
+}
+
+.delivery .inputs .button_checkout {
+    width: 670px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delivery .inputs .button_checkout button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding:17px 50px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.delivery .inputs .agreement {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.delivery .inputs .agreement p {
+    max-width: 670px;
+    max-height: 30px;
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #292929;
+}
+
+.delivery .inputs .agreement p span a {
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #8CC4EC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

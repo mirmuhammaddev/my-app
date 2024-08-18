@@ -1,0 +1,119 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F7F7F7;
+    padding: 40px 70px  ;
+}
+
+.contacts .location_img {}
+
+.contacts .img_and_services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contacts .img_and_services .services {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.contacts .img_and_services .services h1 {
+    font-family: Montserrat, serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    color: #292929;
+}
+
+.contacts .img_and_services .services .production {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contacts .img_and_services .services .production h4 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.contacts .img_and_services .services .production p {
+    max-width: 215px;
+    max-height: 58px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #292929;
+}
+
+.contacts .img_and_services .services .pickup_points {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contacts .img_and_services .services .pickup_points h4 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.contacts .img_and_services .services .pickup_points p {
+    max-width: 325px;
+    max-height: 58px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.contacts .img_and_services .services .phones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.contacts .img_and_services .services .phones h4 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.contacts .img_and_services .services .phones p {
+    max-width: 470px;
+    max-height: 58px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #292929;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px;
+}
+
+.news .news_cards {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr";
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.news .news_cards .each-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(144,144,144, 0.49);
+}
+
+.news .news_cards .each-card .text {
+    border-top: 1px solid #EDEDF0;
+    padding: 20px 20px 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.news .news_cards .each-card .photo img {
+    width: 428px;
+    height: 300px;
+    gap: 0;
+}
+
+.news .news_cards .each-card .text span {
+    gap: 0;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #969696;
+}
+
+.news .news_cards .each-card .text h3 {
+    width: 385px;
+    height: 22px;
+    gap: 0;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.news .news_cards .each-card .text p {
+    width: 330px;
+    height: 51px;
+    gap: 0;
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+.already_sets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding:10px 20px 50px;
+}
+
+.already_sets h1 {
+    width: 261px;
+    height: 37px;
+    top: 287px;
+    left: 589px;
+    gap: 0;
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+}
+
+.already_sets .list_of_holidays {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.already_sets .list_of_holidays .each_holiday {
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 12px;
+    background-color: #F7EBE5;
+}
+
+.already_sets button {
+    width: 293px;
+    height: 50px;
+    gap: 0;
+    border-radius: 3px;
+    border: 1px solid #4E9DD3;
+    background-color: transparent;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

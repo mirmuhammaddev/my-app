@@ -1,0 +1,397 @@
+.your_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}
+
+.your_card .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.your_card .title h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.your_card .title p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.your_card .products_in_card_and_price .products_in_card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(164, 164, 164, 0.35);
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 70px;
+    width: 670px;
+    height: auto;
+    padding: 15px 20px;
+    border-bottom: 1px solid #EDEDF0;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .photo_product_and_name {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    width: 290px;
+    height: auto;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .photo_product_and_name .name_of_product_and_discount {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .photo_product_and_name .name_of_product_and_discount h3 {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .photo_product_and_name .name_of_product_and_discount .compound {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .photo_product_and_name .name_of_product_and_discount .compound p {
+    font-family: Proxima Nova, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .amount_of_products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .amount_of_products button {
+    border: 1px solid #2929291A;
+    border-radius: 3px;
+    padding: 2px 8px;
+    background-color: transparent;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .amount_of_products p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .price_of_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: 130px;
+    height: auto;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .price_of_product .price {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .price_of_product h4 {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #E7426A;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .button_for_delete {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 120px;
+    width: auto;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .each_product .button_for_delete button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    top: 397px;
+    left: 782px;
+    gap: 0;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .total_cost {
+    width: 670px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 18px;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .total_cost p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .total_cost .total_price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .total_cost .total_price h2 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #E7426A;
+}
+
+.your_card .products_in_card_and_price .products_in_card .my_products .total_cost .total_price h4 {
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .products_in_card .with_us_cheaper {
+    width: 670px;
+    height: auto;
+    padding: 26px 18px;
+    background-image: url('');
+}
+
+.your_card .products_in_card_and_price .products_in_card .with_us_cheaper h4 {
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .total {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(164, 164, 164, 0.35);
+}
+
+.your_card .products_in_card_and_price .total .products {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+    padding:30px 30px 20px;
+    border-bottom: 1px solid #EDEDF0;
+}
+
+.your_card .products_in_card_and_price .total .products .each_product {
+    width: 350px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.your_card .products_in_card_and_price .total .products .each_product p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price .total .for_payment {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-bottom: 1px solid #EDEDF0;
+    padding: 16px 30px;
+}
+
+.your_card .products_in_card_and_price .total .for_payment p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price .total .for_payment h4 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: right;
+    color: #292929;
+}
+
+.your_card .products_in_card_and_price .promo_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 16px 30px;
+}
+
+.your_card .products_in_card_and_price .promo_code label {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(73, 73, 73, 0.79);
+}
+
+.your_card .products_in_card_and_price .promo_code .button_and_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.your_card .products_in_card_and_price .promo_code .button_and_input input {
+    width: 140px;
+    height: auto;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 12px;
+    background-color: #F7F7F7;
+}
+
+.your_card .products_in_card_and_price .promo_code .button_and_input button {
+    width: 110px;
+    height: auto;
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.your_card .products_in_card_and_price .button_do_order {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 30px;
+}
+
+.your_card .products_in_card_and_price .button_do_order button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px 50px ;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+

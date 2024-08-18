@@ -1,0 +1,154 @@
+.upper_nav {
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+    padding: 15px 135px;
+    background-color: #F7EBE5;
+    gap: 70px;
+}
+
+.forward_pages {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+}
+
+.forward_pages li {
+    color: #000000C9;
+    line-height: 17.05px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.forward_pages li a {
+    text-decoration: none;
+    color: black;
+}
+
+.left_side .dropdown {
+    display: flex;
+    gap: 5px;
+}
+
+.left_side .dropdown select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.left_side .dropdown select option {
+    background-color: transparent;
+}
+.contact_number {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.left_side {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.left_side .baskets a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.left_side .baskets a {
+    text-decoration: none;
+}
+
+.left_side .baskets a p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #000000E0;
+}
+
+.left_side .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 160px;
+}
+
+.main_nav .main_right_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_nav .main_right_side .discounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main_nav .main_right_side .discounts p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #2B1414;
+}
+
+.main_nav .main_right_side .gift_set a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_nav .main_right_side .collect {
+    display: flex;
+    align-items: center;
+}
+.main_nav .main_right_side .collect a {
+    text-decoration: none;
+    color: black;
+}
+.main_nav .main_left_side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_nav .main_left_side .creat_design p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #2B1414;
+}
+
+.main_nav .main_left_side .catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main_nav .main_left_side .catalog a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.main_nav .main_left_side .catalog .catalog_link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+

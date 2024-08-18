@@ -1,0 +1,118 @@
+.cakes_wholesale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}
+
+.cakes_wholesale .both_sides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cakes_wholesale .both_sides .left_side {}
+
+.cakes_wholesale .both_sides .right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+}
+
+.cakes_wholesale .both_sides .right_side .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cakes_wholesale .both_sides .right_side .title h1 {
+    font-family: Montserrat, serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    text-align: center;
+    color: black;
+}
+
+.cakes_wholesale .both_sides .right_side .title p {
+    max-width: 499px;
+    max-height: 66px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(24, 24, 24, 0.82);
+}
+
+.cakes_wholesale .both_sides .right_side .title .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cakes_wholesale .both_sides .right_side .title .buttons button {
+    border: 1px solid #4E9DD3;
+    border-radius: 3px;
+    padding: 10px 60px;
+    background-color: transparent;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #292929;
+}
+
+.cakes_wholesale .both_sides .right_side .body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    max-width: 670px;
+    max-height: 114px;
+}
+
+.cakes_wholesale .both_sides .right_side .body p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(24, 24, 24, 0.82);
+}
+
+.cakes_wholesale .both_sides .right_side .body .list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+    padding: 0 20px;
+}
+
+.cakes_wholesale .both_sides .right_side .body .list li {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: rgba(24, 24, 24, 0.82);
+}
+
+
+
+
+
+
+

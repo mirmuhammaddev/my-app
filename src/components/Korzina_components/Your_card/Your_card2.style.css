@@ -1,0 +1,77 @@
+.all_your_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding-top: 40px;
+}
+
+.your_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 50%;
+}
+
+.your_card .title {}
+
+.your_card .all_product {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: #fff;
+    gap: 0;
+}
+
+.your_card .all_product .each_product {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    border: 1px solid #F7F7F7;
+    padding: 20px;
+}
+
+.your_card .all_product .each_product .photo_product img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.your_card .all_product .each_product .delete_button {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.your_card .all_product .each_product .delete_button .name_of_product .increment_decrement_button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+.your_card .all_product .each_product .delete_button .name_of_product .increment_decrement_button button {
+    border: 1px solid #EDEDF0;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 2px 5px;
+}
+
+.your_card .all_product .each_product .delete_button .button_for_delete {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+

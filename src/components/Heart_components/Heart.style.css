@@ -1,0 +1,222 @@
+.heart_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F7F7F7;
+    padding: 40px 70px;
+}
+
+.heart_page .heart {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.heart_page .heart .left_side_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.heart_page .heart .left_side_photo .three_hearts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.heart_page .heart .left_side_photo .three_hearts img:hover {
+    border: 3px solid #E7426A;
+    border-radius: 3px;
+    max-width: 245px;
+    height: auto;
+
+}
+
+.heart_page .heart .right_side_information {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.heart_page .heart .right_side_information h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    color: #292929;
+}
+
+.heart_page .heart .right_side_information p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: rgba(41, 41, 41, 0.71);
+}
+
+.heart_page .heart .right_side_information .flavors {
+    max-width: 570px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    padding: 27px 24px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 5px rgba(29, 29, 29, 0.12);
+}
+
+.heart_page .heart .right_side_information .flavors h3 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.heart_page .heart .right_side_information .flavors .each_flavors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+    height: auto;
+}
+
+.heart_page .heart .right_side_information .flavors .each_flavors p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(41, 41, 41, 0.71);
+}
+
+.heart_page .heart .right_side_information .prices {
+    width: 570px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 25px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px rgba(29, 29, 29, 0.12);
+}
+
+.heart_page .heart .right_side_information .prices h1 {
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #E7426A;
+}
+
+.heart_page .heart .right_side_information .prices button {
+    width: 178px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.heart_page .heart .right_side_information .heart_page_delivery_information {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.heart_page .heart .right_side_information .heart_page_delivery_information .each_information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 486px;
+    height: auto;
+
+}
+
+.heart_page .descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+    padding: 20px 20px 55px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.heart_page .descriptions .navbar_of_descriptions {
+    width: 1138px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+    border-bottom: 1px solid #EDEDF0;
+    padding-bottom: 20px;
+}
+
+.heart_page .descriptions .title_of_descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.heart_page .descriptions .title_of_descriptions p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #292929;
+}
+
+.heart_page .descriptions .body_of_descriptions {
+    align-items: start;
+    justify-content: start;
+}
+
+.heart_page .descriptions .body_of_descriptions p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #292929;
+}
+
+
+
+
+
+
+
+

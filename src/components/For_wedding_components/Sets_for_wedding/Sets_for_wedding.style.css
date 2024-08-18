@@ -1,0 +1,168 @@
+.sets_for_wedding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}
+
+.sets_for_wedding h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.sets_for_wedding .sets_cards {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr";
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.sets_for_wedding .sets_cards .each_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    width: 372px;
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px 5px rgba(159, 159, 159, 0.45);
+    padding: 20px;
+}
+
+.sets_for_wedding .sets_cards .each_card .photo_gifts img {
+    width: 200px;
+    height: 200px;
+}
+
+.sets_for_wedding .sets_cards .each_card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    padding: 10px 20px;
+    width: auto;
+    height: 245px;
+}
+
+.sets_for_wedding .sets_cards .each_card .text h3 {
+    width: auto;
+    height: 65px;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.sets_for_wedding .sets_cards .each_card .text p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(53, 53, 53, 0.68);
+}
+
+.sets_for_wedding .sets_cards .each_card .buttons {
+    width: 372px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    border-top: 1px solid #EDEDF0;
+    padding: 15px 20px 0;
+}
+
+.sets_for_wedding .sets_cards .each_card .buttons p {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.sets_for_wedding .sets_cards .each_card .buttons p span {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #E7426A;
+}
+
+.sets_for_wedding .sets_cards .each_card .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    border-left: 1px solid #EDEDF0;
+    outline: none;
+    border-radius: 0;
+    background-color: transparent;
+    padding-left: 80px;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #E7426A;
+/*    width: 200px;
+    height: 50px;
+    border: 1px solid #EDEDF0;
+    border-radius: 0 0 0 5px;
+    background-color: transparent;
+    padding: 13px;
+    text-align: left;
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #E7426A;*/
+}
+
+.sets_for_wedding .sets_cards .each_card .buttons .basket_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 171px;
+    height: 50px;
+    border: 1px solid #EDEDF0;
+    border-radius: 0 0 5px 0;
+    background-color: transparent;
+    padding: 13px;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

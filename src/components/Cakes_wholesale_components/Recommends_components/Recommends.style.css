@@ -1,0 +1,97 @@
+.recommends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}
+
+.recommends h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.recommends .all_recommends {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr";
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.recommends .all_recommends .each_recommend {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.recommends .all_recommends .each_recommend .title_of_recommend {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px 5px 0 0;
+    padding: 30px 20px 10px;
+    background-color: #FFFFFF;
+}
+
+.recommends .all_recommends .each_recommend .title_of_recommend h3 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.recommends .all_recommends .each_recommend .title_of_recommend p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(68, 68, 68, 0.78);
+}
+
+.recommends .all_recommends .each_recommend .body_of_recommend {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding: 25px 15px;
+    border: 1px solid #EDEDF0;
+    border-radius: 0 0 5px 5px;
+    background-color: #FFFFFF;
+    width: 395px;
+    height: auto;
+}
+
+.recommends .all_recommends .each_recommend .body_of_recommend p {
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: end;
+    color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+

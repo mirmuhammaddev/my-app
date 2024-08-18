@@ -1,0 +1,171 @@
+.do_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 70px;
+    background-color: #F7EBE5;
+}
+
+.do_order h1 {
+    max-width: 555px;
+    max-height: 75px;
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.do_order .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.do_order .forms .inputs {
+    display: flex;
+    align-items: start;
+    justify-content: start ;
+    gap: 15px;
+}
+
+.do_order .forms .inputs .names_and_phone_number_pole {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.do_order .forms .inputs .names_and_phone_number_pole .each_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.do_order .forms .inputs .names_and_phone_number_pole .each_input .label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.do_order .forms .inputs .names_and_phone_number_pole .each_input input {
+    width: 370px;
+    height: 50px;
+    border: 1px solid #EDEDF0;
+    padding: 20px 15px;
+    outline: none;
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.do_order .forms .inputs .name_of_company_and_email {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.do_order .forms .inputs .name_of_company_and_email .each_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.do_order .forms .inputs .name_of_company_and_email .each_input .label {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #292929;
+}
+
+.do_order .forms .inputs .name_of_company_and_email .each_input input {
+    width: 370px;
+    height: 50px;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 20px 15px;
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.do_order .forms .inputs .textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+
+}
+
+.do_order .forms .inputs .textarea textarea {
+    width: 370px;
+    height: 135px;
+    border: 1px solid #EDEDF0;
+    outline: none;
+    padding: 20px 15px;
+}
+
+.do_order .forms button {
+    width: 254px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.do_order p {
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #292929;
+}
+
+.do_order p span {
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #4E9DD3;
+}
+
+
+
+
+
+
+
+
+
+

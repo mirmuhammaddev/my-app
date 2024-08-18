@@ -1,0 +1,140 @@
+.main_page .button_deliver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_page .button_deliver .deliver_info {
+    width: 1440px;
+    height: 50px;
+    gap: 10px;
+    background-color: #D4E9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+}
+
+.main_page .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+.main_page .nav .top {
+    width: 1440px;
+    height: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #F7EBE5;
+}
+
+.main_page .nav .top .delivers_type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 17px;
+    top: 15px;
+    left: 135px;
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000E0;
+}
+
+.main_page .nav .top .delivers_type li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_page .nav .top .info_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 35px;
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #000000E0;
+}
+
+.main_page .nav .top .info_logo li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_page .nav .top .info_logo .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_page .nav .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main_page .nav .bottom h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    gap: 5px;
+}
+
+.main_page .macaron_shop {
+    background-image: url("img/img_macaron.svg");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.main_page .macaron_shop img {
+    margin: 0 50px;
+}
+
+.main_page .macaron_shop .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_page .macaron_shop .text .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

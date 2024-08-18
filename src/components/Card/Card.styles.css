@@ -1,0 +1,86 @@
+.card {
+    border: 1px solid #EDEDF0;
+    border-right: 5px;
+    max-width: 370px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    max-width: 370px;
+    max-height: 300px;
+}
+
+.card .content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card .content .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.card .content .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #292929;
+}
+
+.card .footer {
+    border-top: 1px solid #EDEDF0;
+    display: flex;
+    padding: 45px 70px;
+    gap: 30px;
+}
+
+.card .footer .price {
+    padding: 14px 21px;
+    width: 127px;
+    height: 26px;
+    gap: 0;
+}
+
+.card .footer .price span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    gap: 0;
+    color: #E7426A;
+}
+
+.card .footer .action {
+    padding: 13px;
+    width: 102px;
+    height: 19px;
+    gap: 0;
+
+}
+
+.card .footer .action button {
+    border: none;
+    outline: none;
+    display: flex;
+    background-color: transparent;
+    gap: 5px;
+    width: 102px;
+    height: 19px;
+}
+
+.card .footer .action button img {
+    max-height: 15px;
+    width: auto;
+}
+.card .footer .action button  span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    line-height: 17.07px;
+}

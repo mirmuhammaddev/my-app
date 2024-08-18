@@ -1,0 +1,115 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 70px;
+    background-color: #F7F7F7;
+}
+
+.main .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.main .text .left_side {
+}
+
+.main .text .right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main .text .right_side .shipping_and_payment {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.main .text .right_side .shipping_and_payment h1 {
+    font-family: Montserrat, serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    color: #292929;
+}
+
+.main .text .right_side .shipping_and_payment p {
+    max-width: 470px;
+    max-height: 87px;
+    gap: 0;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #292929;
+}
+
+.main .text .right_side .shipping_and_payment span {
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+
+}
+
+.main .text .right_side .courier_delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.main .text .right_side .courier_delivery h4 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #292929;
+}
+
+.main .text .right_side .courier_delivery p {
+    max-width: 470px;
+    max-height: 275px;
+    gap: 0;
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #292929;
+}
+
+.main .text .right_side .courier_delivery span {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #E7426A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

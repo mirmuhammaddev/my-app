@@ -1,0 +1,8 @@
+.sponsors_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}

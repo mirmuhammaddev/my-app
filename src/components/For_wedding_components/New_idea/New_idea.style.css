@@ -1,0 +1,158 @@
+.new_idea {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    background-color: #F1F1F1;
+}
+
+.new_idea .left_side_text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 35px;
+}
+
+.new_idea .left_side_text .title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 13px;
+}
+
+.new_idea .left_side_text .title h1 {
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: left;
+    color: #292929;
+}
+
+.new_idea .left_side_text .title p {
+    max-width: 410px;
+    max-height: 45px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.new_idea .left_side_text .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.new_idea .left_side_text .inputs .name_and_phone_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.new_idea .left_side_text .inputs .name_and_phone_number .name_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.new_idea .left_side_text .inputs .name_and_phone_number .name_input input {
+    width: 270px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.new_idea .left_side_text .inputs .name_and_phone_number .phone_number_input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.new_idea .left_side_text .inputs .name_and_phone_number .phone_number_input input {
+    width: 270px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.new_idea .left_side_text .inputs .text_area {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+}
+
+.new_idea .left_side_text .inputs .text_area textarea {
+    width: 570px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.new_idea .left_side_text .inputs button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 17px 50px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.new_idea .left_side_text p {
+    max-width: 560px;
+    max-height: 26px;
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+    color: #292929;
+}
+
+.new_idea .left_side_text p span {
+    font-family: Proxima Nova, serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
+
+.new_idea .left_side_text p span a {
+    color: #8CC4EC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+.corporate_gifts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 30px 70px;
+    background-color: #F7F7F7;
+}
+
+.corporate_gifts .corporate_gifts_information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.corporate_gifts .corporate_gifts_information .left_side {}
+
+.corporate_gifts .corporate_gifts_information .right_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.corporate_gifts .corporate_gifts_information .right_side .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.corporate_gifts .corporate_gifts_information .right_side .title h1 {
+    font-family: Montserrat, serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 51px;
+    text-align: center;
+    color: #292929;
+}
+
+.corporate_gifts .corporate_gifts_information .right_side .title p {
+    max-width: 499px;
+    max-height: 44px;
+    font-family: Proxima Nova, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.corporate_gifts .corporate_gifts_information .right_side .body {
+    max-width: 670px;
+    max-height: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0;
+}
+
+.corporate_gifts .corporate_gifts_information .right_side button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 15px 20px ;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

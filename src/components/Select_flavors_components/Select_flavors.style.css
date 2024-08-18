@@ -1,0 +1,265 @@
+.flavors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding: 40px 70px;
+    background-color: #F7F7F7;
+}
+
+.flavors h1 {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    color: #292929;
+}
+
+.flavors .flavors_cards_and_order_cards {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards {
+    display: grid;
+    grid-template-areas: "1fr 1fr 1fr";
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card {
+    max-width: 270px;
+    max-height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+    padding: 25px 15px;
+    background-color: #fff;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .card_text {
+    max-width: 240px;
+    max-height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .card_text h5 {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #292929;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .card_text p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(68, 68, 68, 0.83);
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border-top: 1px solid #EDEDF0;
+    width: 271px;
+    padding-top: 25px;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .footer button {
+    border: 1px solid #2929291A;
+    outline: none;
+    border-radius: 3px;
+    padding:2px 5px;
+    background-color: transparent;
+}
+
+.flavors .flavors_cards_and_order_cards .flavors_cards .each_flavor_card .footer p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #292929;
+}
+
+.flavors .order_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid #EDEDF0;
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+
+.flavors .order_card .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-bottom: 1px solid #EAEAEA;
+    width: 340px;
+    padding: 20px 30px;
+}
+
+.flavors .order_card .title p {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #292929;
+}
+
+.flavors .order_card .title span {
+    font-family: Montserrat, serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #E7426A;
+}
+
+.flavors .order_card .list_of_products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EAEAEA;
+    width: 340px;
+}
+
+.flavors .order_card .list_of_products .each_product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    height: auto;
+    padding:17px 20px;
+}
+
+.flavors .order_card .list_of_products .each_product .quantity_of_product_and_delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.flavors .order_card .list_of_products .each_product .quantity_of_product_and_delete .quantity_of_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flavors .order_card .list_of_products .each_product .quantity_of_product_and_delete .quantity_of_product button {
+    border: 1px solid #2929291A;
+    border-radius: 3px;
+    padding:2px 5px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 800;
+    color: #292929;
+}
+
+.flavors .order_card .list_of_products .each_product .quantity_of_product_and_delete .quantity_of_product p {
+    font-family: Proxima Nova, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #292929;
+}
+
+.flavors .order_card .list_of_products .each_product .quantity_of_product_and_delete .delete button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.flavors .order_card .checkout_and_collect_set {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+    padding: 0 20px 20px;
+}
+
+.flavors .order_card .checkout_and_collect_set p {
+    font-family: Proxima Nova, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #292929;
+}
+
+.flavors .order_card .checkout_and_collect_set .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 8px;
+}
+
+.flavors .order_card .checkout_and_collect_set .buttons .checkout_button {
+    max-width: 222px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 12px 49px;
+    background-color: #E7426A;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.flavors .order_card .checkout_and_collect_set .buttons .collect_set_button {
+    max-width: 222px;
+    border: 1px solid #E7426A;
+    outline: none;
+    border-radius: 3px;
+    padding: 12px 41px;
+    background-color: transparent;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    color: #E7426A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
